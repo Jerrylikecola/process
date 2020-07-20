@@ -1,0 +1,16 @@
+[
+  {
+    "uniquelyCode" : "cola",
+    "stepList" : [
+      "washCup",
+      "toCola"
+    ]
+  },
+  {
+    "uniquelyCode" : "coffee",
+    "stepList" : [
+      "washCup",
+      "toCoffee"
+    ]
+  }
+]
