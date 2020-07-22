@@ -1,4 +1,4 @@
-package com.jerrylikecola.process.engine;
+package com.jerrylikecola.process.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

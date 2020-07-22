@@ -1,7 +1,7 @@
 package com.jerrylikecola.process.test;
 
 import com.jerrylikecola.process.engine.ProcessEngine;
-import com.jerrylikecola.process.step.Drink;
+import com.jerrylikecola.process.entity.Drink;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -26,7 +26,8 @@ public class TestProcess {
     @GetMapping("/get")
     public String makeDrink(@RequestParam String drink){
         Drink demo = new Drink();
+        demo.setUniquelyCode(drink);
         processEngine.turn(drink,demo);
-        return demo.getCup()+demo.getContext();
+        return demo.getCup()+demo.getContext()+demo.getExtra();
     }
 }

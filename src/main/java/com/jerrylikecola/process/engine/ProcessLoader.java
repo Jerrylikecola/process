@@ -3,6 +3,7 @@ package com.jerrylikecola.process.engine;
 import com.alibaba.fastjson.JSON;
 import com.google.common.base.Charsets;
 import com.google.common.io.CharStreams;
+import com.jerrylikecola.process.entity.Process;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.ResourcePatternResolver;

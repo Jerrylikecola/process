@@ -1,4 +1,4 @@
-package com.jerrylikecola.process.step;
+package com.jerrylikecola.process.entity;
 
 import lombok.Data;
 
@@ -10,12 +10,16 @@ import lombok.Data;
 @Data
 public class Drink {
 
+    private String uniquelyCode = "";
+
     /**
      * xia ji ba qu de
      */
-    private String cup;
+    private String cup = "";
     /**
      * xia ji ba qu de
      */
-    private String context;
+    private String context = "";
+
+    private String extra = "";
 }

@@ -3,14 +3,15 @@
     "uniquelyCode" : "cola",
     "stepList" : [
       "washCup",
-      "toCola"
+      "toDrink"
     ]
   },
   {
     "uniquelyCode" : "coffee",
     "stepList" : [
       "washCup",
-      "toCoffee"
+      "toDrink",
+      "pullFlower"
     ]
   }
 ]

@@ -6,14 +6,14 @@ import com.jerrylikecola.process.entity.Drink;
 
 /**
  * @author xiaxiang
- * @date 2020/7/20 15:52
+ * @date 2020/7/22 10:20
  * @description
  */
-@ProcessStep(name = "toCoffee")
-public class ToCoffee<Context extends Drink> implements Step<Context> {
+@ProcessStep(name = "pullFlower")
+public class PullFlower implements Step<Drink>{
 
     @Override
-    public void execute(Context context) {
-        context.setContext("里面装满了咖啡");
+    public void execute(Drink drink) {
+        drink.setExtra("飘着好看的拉花");
     }
 }
